@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Georgia', 'serif', 'Roboto';
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.menu-container {
+    width: 100vw;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0ffed;
+    box-shadow: 5px 22px 56px 15px rgba(0,0,0,0.29);
+-webkit-box-shadow: 5px 22px 56px 15px rgba(173, 113, 113, 0.29);
+-moz-box-shadow: 5px 22px 56px 15px rgba(0,0,0,0.29);
+    z-index: 100;
+}
+
+.logo-container {
+    height: 50%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+    padding-left: 10%;
+}
+
+.logo-container img {
+    height: 130%;
+    margin-right: 6%;
+}
+
+.container {
+    width: 100vw;
+    /* font-family: 'Opens Sans', 'Helvetica Neue'; */
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message {
+    width: 100vw;
+    height: auto;
+    padding-top: 36px;
+    padding-bottom: 44px;
+    background-color: #4ce332;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 5px 22px 56px 15px rgba(0,0,0,0.03);
+    -webkit-box-shadow: 5px 22px 56px 15px rgba(0,0,0,0.03);
+    -moz-box-shadow: 5px 22px 56px 15px rgba(0,0,0,0.03);
+}
+
+.main-message {
+    text-align: center;
+    font-size: 70px;
+}
+
+.sec-message {
+    text-align: center;
+    font-size: 27px;
+}
+
+.info-projobs {
+    height: auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 90vw;
+}
+.info-projobs span {
+    padding: 7px 0px 10px 40px ; 
+}
+
+
+.info-projobs h2 {
+    padding: 5px 0px 10px 40px; 
+}
+
+.baixo {
+    margin-bottom: 20px;
+
+}
+
+.info-curriculo {
+    height: auto;
+    width: 100vw;
+    padding: 4% 10%;
+    background-color: #f0ffed;
+    margin-top: 20px;
+}
+
+.dados-p {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccf5bf;
+}
+.dados-p h4 {
+    margin-bottom: 35px;
+}
+
+.dados-p span {
+    font-size: 20px;
+}
+.dados-p p {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input {
+    width: 26vw;
+    height: 40px;
+}
+
+.inputmini {
+    width: 19vw;
+    height: 40px;
+}
+
+.inputmenor {
+    width: 20vw;
+    height: 40px;
+}
+
+.inputmedio {
+    width: 40.5vw;
+    height: 40px;
+}
+
+.inputgrande {
+    width: 55vw;
+    height: 40px;
+}
+
+.inputmaior {
+    width: 100%;
+    height: 40px;
+}
+
+.botao { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao {
+    background-color: #3ab531;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.add-btn {
+    background-color: #3ab531 !important;
+    margin-top: 15px;
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
